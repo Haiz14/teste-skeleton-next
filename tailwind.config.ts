@@ -14,6 +14,7 @@ export default {
 	},
 
 	plugins: [
+		require('@tailwindcss/typography'),
 		skeleton({
 			themes: [
 				themes.rose,
